@@ -1,0 +1,10 @@
+let a = 12;
+let r = 8;
+let s = a*a;
+let p = 4*a;
+let si = 3.14*r*r;
+let pi = 2*3.14*r;
+document.getElementById('h').innerHTML='مساحت مربع: ' + s; 
+document.getElementById('j').innerHTML='محیط مربع: ' + p;
+document.getElementById('k').innerHTML='مساحت دایره: ' + si;
+document.getElementById('l').innerHTML='محیط دایره: ' + pi;
